@@ -1,7 +1,7 @@
 from telebot import *
 
 
-chave_api = "5149068146:AAGN_SU3t3MFpSWL1pLJSnJrzTI9gHx1TOY"
+chave_api = "SUA CHAVE API TELEGRAM"
 
 bot = telebot.TeleBot(chave_api)
 
