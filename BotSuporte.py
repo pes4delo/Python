@@ -5,13 +5,13 @@ from telegram.ext.commandhandler import CommandHandler
 from telegram.ext.messagehandler import MessageHandler
 from telegram.ext.filters import Filters
 
-updater = Updater("5156552286:AAFAcQCqrWZT-2kaInMVi0hOrhEavYTnGQo",
+updater = Updater("SUA-API-TELEGRAM",
 				use_context=True)
 
 
 def start(update: Update, context: CallbackContext):
 	update.message.reply_text(
-		"Olá Senhor(a), Bem vindo ao suporte ATIC-FOOD. Por gentileza, digite\
+		"Olá Senhor(a), Bem vindo ao suporte do sistema. Por gentileza, digite\
 		/ajuda para ver todos os comandos disponiveis.")
 
 def ajuda(update: Update, context: CallbackContext):
@@ -28,8 +28,8 @@ def ajuda(update: Update, context: CallbackContext):
 
 def link_url(update: Update, context: CallbackContext):
 	update.message.reply_text(
-		"Segue o link do sistema ATIC FOOD:\
-		auditfood.intertekservices.com.br)")
+		"Segue o link do sistema:\
+		Link.com.br)")
 
 
 def reset_senha(update, context):
